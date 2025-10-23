@@ -1,5 +1,5 @@
 # Van Guardian - Server
-Van Guardian is a service that analyzes images of a camper-van interior and returns a concise safety assessment.
+Van Guardian is a service that analyzes images of a camper-van interior and returns a concise safety assessment. It uses LLMs via **Ollama** to produce image descriptions and translations.
 
 ## How it works
 
@@ -9,11 +9,11 @@ Van Guardian is a service that analyzes images of a camper-van interior and retu
 
 ## API contract
 
-* `/analyze`: inputs an image and returns a JSON object with these fields:
+* `/analyze`: inputs an image and returns a JSON:
 
-    * `alert`: boolean
-    * `reason`: short string (human-readable explanation)
-    * `severity`: one of `low`, `medium`, `high` (nullable)
+    * `alert -> boolean`: If LLM detects a safety issue
+    * `reason -> string`: Human-readable explanation of the issue
+    * `severity -> enum (nullable)`: `low`, `medium`, `high`
 
 ### Example request
 
