@@ -1,5 +1,5 @@
 # Van Guardian - Server
-Van Guardian is a service that analyzes images of a camper-van interior and returns a concise safety assessment. It uses LLMs via **Ollama** to produce image descriptions and translations.
+Van Guardian is a Ktor HTTP service that analyzes images of a camper-van interior and returns a concise safety assessment. It uses LLMs via **Ollama** to produce image descriptions and translations.
 
 ## How it works
 
