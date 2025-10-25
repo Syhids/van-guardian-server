@@ -49,7 +49,7 @@ Vanguardian requires access to an **Ollama server** to perform its analysis.
 ### Setup instructions
 
 1. **Install Ollama**: [https://ollama.com/download](https://ollama.com/download)
-2. **Start the Ollama server** via CLI (for GUI instructions, check 6):
+2. **Start the Ollama server** via CLI (for GUI instructions, check 4):
 
    ```bash
    ollama serve
