@@ -49,7 +49,7 @@ Vanguardian requires access to an **Ollama server** to perform its analysis.
 ### Setup instructions
 
 1. **Install Ollama**: [https://ollama.com/download](https://ollama.com/download)
-2. **Start the Ollama server** via CLI (for GUI instructions, check 4):
+2. **Start the Ollama server** via CLI (for GUI instructions, go to 4):
 
    ```bash
    ollama serve
@@ -61,7 +61,7 @@ Vanguardian requires access to an **Ollama server** to perform its analysis.
    ollama pull gemma3
    ```
    
-4. (Optional) You can also **run it via GUI**, then download the models, and run any prompt, so it will start the Ollama service in the background
+4. (Optional) You can also **run it via GUI**, by opening it and running any prompt using the required models, so the Ollama service is started and ready in the background
 5. Ensure it is reachable:
 
    ```bash
