@@ -60,6 +60,7 @@ Vanguardian requires access to an **Ollama server** to perform its analysis.
    ollama pull llava
    ollama pull gemma3
    ```
+   By default, `llava` is used to describe the images and output the json, and `gemma3` is used to translate the `reason` to spanish.
    
 4. (Optional) You can also **run it via GUI**, by opening it and running any prompt using the required models, so the Ollama service is started and ready in the background
 5. Ensure it is reachable:
